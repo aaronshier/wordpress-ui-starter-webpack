@@ -1,4 +1,3 @@
-.sass-cache
 
 # Logs
 logs
@@ -6,6 +5,8 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.sass-cache
 
 # Runtime data
 pids
