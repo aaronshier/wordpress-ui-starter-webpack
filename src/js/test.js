@@ -1,0 +1,1 @@
+export default () => alert('working great!')
