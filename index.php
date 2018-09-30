@@ -19,4 +19,4 @@ if ( !isset( $redux_demo ) && file_exists( dirname( __FILE__ ) . '/ReduxFramewor
     require_once( dirname( __FILE__ ) . '/ReduxFramework/config.php' );
 }
 
-require_once('src/shortcodes.php');
+require_once('src/example-shortcode.php');

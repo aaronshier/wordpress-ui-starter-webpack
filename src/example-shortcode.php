@@ -3,7 +3,8 @@
 function wptuts_scripts_basic()
 {
     // Register the script like this for a plugin:
-    wp_register_script( 'custom-script', plugins_url( '/../js/app.js', __FILE__ ) );
+    wp_register_script( 'cdt_app-js', plugins_url( '/../js/app.js', __FILE__ ) );
+    wp_register_script( 'cdt_styles-js', plugins_url( '/../js/styles.js', __FILE__ ) );
  
     // // For either a plugin or a theme, you can then enqueue the script:
     wp_enqueue_script( 'custom-script' );
